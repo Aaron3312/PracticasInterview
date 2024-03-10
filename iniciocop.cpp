@@ -51,7 +51,12 @@ int main(){
 
 
     vector<int> odd = oddNumbers(2, 5);
-    cout << "Impares: ";
+    cout << "Impares: " << endl;
+    int n = 10;
+    for (int i = 0; i <= n; i++){
+        
+        cout << i <<endl;
+    }
 
     return 0;
 }
